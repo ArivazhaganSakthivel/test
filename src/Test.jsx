@@ -4,7 +4,7 @@ const Test = () => {
     const [type, SetType] = useState(['Block', 'hsh'])
 
     useEffect(() => {
-        console.log('Type changed---');
+        console.log('Lets try this');
         return ()=> {
             console.log('From return It will run first')
         }
